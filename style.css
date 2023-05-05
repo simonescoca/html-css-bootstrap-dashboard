@@ -36,6 +36,7 @@
     border: none;
     background-color: #e5e5e5;
     padding-left: 35px;
+    font-size: 0.8rem;
 }
 
 .my_searchbar:focus{
@@ -94,6 +95,11 @@
     .my_more a{
         margin: auto;
     }
+
+    .my_searchbar{
+        font-size: 1rem;
+    }
+    
 }
 
 /* MAIN //////////////////*/
