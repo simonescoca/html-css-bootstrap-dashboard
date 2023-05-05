@@ -47,10 +47,26 @@
         </nav>
         <!-- IL MAIN COMPRENDE UN ASIDE FISSO A SINISTRA E UN CONTENUTO FISSO PRINCIPALE CON OVERFLOW A DESTRA, IL MAIN È ALTO 100VH - HEADER ED È D-FLEX -->
         <main class="my_overflow-box d-flex">
-            <!-- NELL'ASIDE A SINISTRA C'È UNA NAV VERTICALE -->
-            <aside class="my_aside">
-                <nav class="my_nav-aside">
-                </nav>
+            <!-- NELL'ASIDE A SINISTRA C'È UNA SIMIL-NAV VERTICALE -->
+            <aside class="my_sidebar">
+                <div class="my_asd-container d-flex flex-column">
+                    <section class="my_upper">
+                        <a href="#" class="my_upper-icons">
+                            <i class="fa-solid fa-house"></i>
+                        </a>
+                        <a href="#" class="my_upper-icons">
+                            <i class="fa-solid fa-chart-simple"></i>
+                        </a>
+                        <a href="#" class="my_upper-icons">
+                            <i class="fa-solid fa-signal"></i>
+                        </a>
+                    </section>
+                    <section class="my_lower">
+                        <a href="#" class="my_upper-icons">
+                            <i class="fa-solid fa-gear"></i>
+                        </a>
+                    </section>
+                </div>
             </aside>
             <!-- ALLA DESTRA DELL'ASIDE IL MAIN DEL MAIN AVRÀ WIDTH 100% - ASIDE -->
             <main class="my_main-content">

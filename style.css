@@ -107,12 +107,39 @@ main{
     height: calc(100vh - 70px);
 }
 
-
-/* MAIN - MY-OVERFLOW-BOX //////////////////*/
-.my_aside{
-    background-color: aqua;
+/* MAIN - MY-SIDEBAR //////////////////*/
+.my_sidebar{
+    background-image: url(img/sidebar-bg.png);
+    background-color: #142a40;
+    background-size: cover;
+    background-position: center;
     width: 65px;
 }
+
+.my_asd-container{
+    width: 60%;
+    height: 100%;
+    padding: 1.5rem 0;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my_upper-icons{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.my_sidebar i{
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.85rem 0;
+}
+
+
+
+/* MAIN - MY-OVERFLOW-BOX //////////////////*/
 
 /* MAIN - MY-MAIN-CONTENT //////////////////*/
 .my_main-content{
