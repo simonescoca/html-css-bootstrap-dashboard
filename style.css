@@ -1,28 +1,29 @@
 /* HEADER - MY-TOP //////////////////*/
-.my_top{
-    background-color: red;
+.my_nav-top{
+    height: 70px;
 }
 
-.my_nav-top{
-    height: 100px;
+.navbar-brand{
+    display: block;
+    width: 40px;
 }
 
 /* MAIN //////////////////*/
 main{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 70px);
 }
 
 
 /* MAIN - MY-OVERFLOW-BOX //////////////////*/
 .my_aside{
     background-color: aqua;
-    width: 150px;
+    width: 65px;
 }
 
 /* MAIN - MY-MAIN-CONTENT //////////////////*/
 .my_main-content{
     background-color: chocolate;
-    width: calc(100% - 150px);
+    width: calc(100% - 65px);
     overflow-y: auto;
 }
 
