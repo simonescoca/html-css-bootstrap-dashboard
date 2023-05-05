@@ -1,0 +1,32 @@
+/* HEADER - MY-TOP //////////////////*/
+.my_top{
+    background-color: red;
+}
+
+.my_nav-top{
+    height: 100px;
+}
+
+/* MAIN //////////////////*/
+main{
+    height: calc(100vh - 100px);
+}
+
+
+/* MAIN - MY-OVERFLOW-BOX //////////////////*/
+.my_aside{
+    background-color: aqua;
+    width: 150px;
+}
+
+/* MAIN - MY-MAIN-CONTENT //////////////////*/
+.my_main-content{
+    background-color: chocolate;
+    width: calc(100% - 150px);
+    overflow-y: auto;
+}
+
+.my_main-content::-webkit-scrollbar {
+    display: none;
+}
+  

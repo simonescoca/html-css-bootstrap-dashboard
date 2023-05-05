@@ -12,28 +12,28 @@
     </head>
     <body>
         <!-- L'HEADER COMPRENDE LA NAV BIANCA FISSA IN ALTO -->
-        <header>
-            <nav>
+        <header class="my_top">
+            <nav class="my_nav-top">
             </nav>
         </header>
-        <!-- IL MAIN COMPRENDE UN ASIDE FISSO A SINISTRA E UN CONTENUTO FISSO PRINCIPALE CON OVERFLOW A DESTRA, IL MAIN È ALTO 100VH - HEADER -->
-        <main>
+        <!-- IL MAIN COMPRENDE UN ASIDE FISSO A SINISTRA E UN CONTENUTO FISSO PRINCIPALE CON OVERFLOW A DESTRA, IL MAIN È ALTO 100VH - HEADER ED È D-FLEX -->
+        <main class="my_overflow-box d-flex">
             <!-- NELL'ASIDE A SINISTRA C'È UNA NAV VERTICALE -->
-            <aside>
-                <nav>
+            <aside class="my_aside">
+                <nav class="my_nav-aside">
                 </nav>
             </aside>
             <!-- ALLA DESTRA DELL'ASIDE IL MAIN DEL MAIN AVRÀ WIDTH 100% - ASIDE -->
-            <main>
+            <main class="my_main-content">
                 <!-- IL MAIN DEL MAIN COMPRENDE UN HEADER BLU -->
-                <header>
+                <header class="my_main-header">
                 </header>
                 <!-- E UN DIV IN FLEX CHE, A SUA VOLTA, CONTIENE DUE ASIDE -->
-                <div>
+                <div class="my_bigAsidesBox">
                     <!-- I DUE ASIDE SONO FLEX ITEM, E CONTENGONO LE VARIE SEZIONI DEL MAIN -->
-                    <aside>
+                    <aside class="my_lt-bigAside">
                     </aside>
-                    <aside>
+                    <aside class="my_rt-bigAside">
                     </aside>
                     <!-- IL DIV È IN FLEX WRAP E GLI ASIDE SONO IN WIDTH 100%, DIVENTANO 65% E 35% SOLO DA LG IN POI -->
                 </div>
