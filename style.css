@@ -27,11 +27,7 @@ main{
     display: none;
 }
 
-nav div:not(div.my_container){
-    border: 1px dashed magenta;
-}
-
-.my_container{
+.my_nav-container{
     background-color: white;
     padding: 0 15px;
     width: 100%;
@@ -76,6 +72,49 @@ nav div:not(div.my_container){
     transform: translate(0 , -50%);
 }
 
-.my_notif{
+.my_menu,
+.my_info,
+.my_more{
+    display: none;
+}
+
+.my_menu i,
+.my_info i,
+.my_more i{
+    color: #5b5858;
+}
+
+.my_notif i{
+    color: #ff8f00;
+}
+
+.my_notif a{
+    margin: auto;
+}
+
+.my_notif,
+.my_menu,
+.my_info,
+.my_more{
     width: 28px;
+}
+
+@media screen and (min-width: 768px) {
+    .my_search{
+        width: calc(100% - 162px);
+    }
+
+    .my_menu,
+    .my_info,
+    .my_more{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .my_menu a,
+    .my_info a,
+    .my_more a{
+        margin: auto;
+    }
 }
