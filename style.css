@@ -291,10 +291,10 @@ a{
     padding: 0.5rem 0;
 }
 
+/* MAIN - MY-LT-BIG ASIDE - NEXT CLASSES //////////////////*/
 
-/* MAIN - MY-LT-BIG ASIDE //////////////////*/
 
-/* MAIN - MY-RT-BIG ASIDE - F.A.Q. //////////////////*/
+/* MAIN - MY-LT-BIG ASIDE - F.A.Q. //////////////////*/
 .my_faq{
     border: 1px solid #e7e5e6;
     border-radius: 10px;
@@ -337,6 +337,12 @@ a{
 .my_question:nth-child(1),
 .my_question:nth-child(2){
     border-bottom: 1px solid #e7e5e6;
+}
+
+@media screen and (min-width: 768px) {
+    .my_lt-bigAside{
+        width: 65%;
+    }
 }
 
 /* MAIN - MY-RT-BIG ASIDE - TODO //////////////////*/
@@ -406,4 +412,10 @@ a{
 .my_active-users-list,
 .my_usersPerMonth{
     padding: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .my_rt-bigAside{
+        width: 35%;
+    }
 }
