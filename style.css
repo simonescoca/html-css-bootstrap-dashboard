@@ -250,9 +250,25 @@ main{
         align-items: center;
     }
     .my_main-header-container{
-        width: 90%;
-        padding: 40px 0;
+        padding: 0;
         justify-content: space-between;
-        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .my_main-header-item{
+        width: fit-content;
+        height: 100%;
+    }
+
+    .my_main-header-item:nth-child(1){
+        order: 3;
+    }
+
+    .my_main-header-item:nth-child(2){
+        order: 1;
+    }
+
+    .my_main-header-item:nth-child(3){
+        order: 2;
     }
 }
