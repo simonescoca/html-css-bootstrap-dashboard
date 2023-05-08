@@ -194,11 +194,18 @@ main{
     margin: 0 auto;
     padding: 40px 0;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 .my_main-header-item{
     width: 100%;
+    height: calc(100% / 3);
 }
+
+.my_main-header-item > div{
+    margin: auto 0;
+}
+
 
 .my_new-stud{
     padding-right: 0.8rem;
