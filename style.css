@@ -180,6 +180,7 @@ a{
 .my_main-header{
     height: 320px;
     background-color: #1a72e8;
+    margin-bottom: 2rem;
 }
 
 .my_main-header a{
