@@ -175,3 +175,77 @@ main{
         width: calc(100% - 170px);
     }    
 }
+
+/* MAIN - MY-MAIN-HEADER //////////////////*/
+.my_main-header{
+    height: 320px;
+    background-color: #1a72e8;
+}
+
+.my_main-header a{
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    height: fit-content;
+}
+
+.my_main-header-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.my_main-header-item{
+    width: 100%;
+}
+
+.my_new-stud{
+    padding-right: 0.8rem;
+}
+
+.my_plus{
+    padding: 2px 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.my_Boolean{
+    font-size: 1.7rem;
+    padding-right: 0.5rem;
+}
+
+.my_main-header-pill{
+    padding: 3px 9px;
+    background-color: #165bba;
+    border-radius: 18px;
+    font-size: 0.85rem;
+}
+
+.my_main-header-item p{
+    color: white;
+    margin: 0;
+    font-weight: 600;
+}
+
+.my_studs{
+    font-size: 0.9rem;
+}
+
+.my_studs-nr{
+    font-size: 1.7rem;
+}
+
+@media screen and (min-width: 576px) {
+    .my_main-header{
+        height: 130px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .my_main-header-container{
+        width: 90%;
+        padding: 40px 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
