@@ -161,7 +161,6 @@ main{
 
 /* MAIN - MY-MAIN-CONTENT //////////////////*/
 .my_main-content{
-    background-color: chocolate;
     width: calc(100% - 65px);
     overflow-y: auto;
 }
@@ -271,4 +270,66 @@ main{
     .my_main-header-item:nth-child(3){
         order: 2;
     }
+}
+
+/* MAIN - BIG ASIDES BOX //////////////////*/
+.my_bigAsidesBox{
+    flex-wrap: wrap;
+    color: #051e34;
+    font-size: 0.88rem;
+}
+
+.my_lt-bigAside,
+.my_rt-bigAside{
+    width: 100%;
+}
+
+.my_asidesContainer{
+    width: 92%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+}
+
+
+/* MAIN - MY-LT-BIG ASIDE //////////////////*/
+
+/* MAIN - MY-RT-BIG ASIDE //////////////////*/
+.my_faq{
+    border: 1px solid #e7e5e6;
+    border-radius: 10px;
+}
+
+.my_faq-header{
+    background-color: #f7f7f7;
+    padding: 1rem 0 1rem 1rem;
+    font-size: 1.4rem;
+}
+
+.my_faq-questions{
+    background-color: white;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.my_question{
+    display: block;
+    color: #051e34;
+    position: relative;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.my_question-container{
+    width: 85%;
+}
+
+.my_question i{
+    position: absolute;
+    right: 4%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.my_question:nth-child(1),
+.my_question:nth-child(2){
+    border-bottom: 1px solid #e7e5e6;
 }
