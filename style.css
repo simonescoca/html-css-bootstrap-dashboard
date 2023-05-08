@@ -107,8 +107,9 @@ a{
 }
 
 /* MAIN //////////////////*/
-main{
+.my_main-content{
     height: calc(100vh - 70px);
+    background-color: #f8f9fa;
 }
 
 /* MAIN - MY-SIDEBAR //////////////////*/
@@ -293,22 +294,26 @@ main{
 
 /* MAIN - MY-LT-BIG ASIDE //////////////////*/
 
-/* MAIN - MY-RT-BIG ASIDE //////////////////*/
+/* MAIN - MY-RT-BIG ASIDE - F.A.Q. //////////////////*/
 .my_faq{
     border: 1px solid #e7e5e6;
     border-radius: 10px;
+    margin-bottom: 2rem;
 }
 
 .my_faq-header{
     background-color: #f7f7f7;
     padding: 1rem 0 1rem 1rem;
     font-size: 1.4rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .my_faq-questions{
     background-color: white;
     height: fit-content;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .my_question{
@@ -332,4 +337,73 @@ main{
 .my_question:nth-child(1),
 .my_question:nth-child(2){
     border-bottom: 1px solid #e7e5e6;
+}
+
+/* MAIN - MY-RT-BIG ASIDE - TODO //////////////////*/
+.my_todo{
+    border: 1px solid #e7e5e6;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.my_todo-header{
+    background-color: #f7f7f7;
+    padding: 1rem 0 1rem 1rem;
+    font-size: 1.4rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.my_stuff-todo{
+    background-color: white;
+    height: fit-content;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.my_stuff{
+    color: #051e34;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.my_stuff-todo span{
+    padding-left: 0.5rem;
+}
+
+/* MAIN - MY-RT-BIG ASIDE - STATS //////////////////*/
+.my_statistics{
+    border-radius: 10px;
+    border: 1px solid #e7e5e6;
+}
+
+.my_stats-img{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #e7e5e6;
+}
+
+.my_active-users{
+    font-size: 1.4rem;
+}
+
+.my_usersPerMonth{
+    border-bottom: 1px solid #e7e5e6;
+}
+
+.my_usersPerMonth:first-child{
+    border-top: 1px solid #e7e5e6;
+}
+
+.my_usersPerMonth:last-child{
+    border-bottom: none;
+}
+
+.my_usersPerMonth a:hover{
+    text-decoration: underline;
+}
+
+.my_active-users,
+.my_active-users-list,
+.my_usersPerMonth{
+    padding: 1rem 0;
 }
